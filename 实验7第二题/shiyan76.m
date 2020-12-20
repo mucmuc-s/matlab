@@ -1,0 +1,13 @@
+x=0:pi/100:2*pi;
+y1=x.*x;
+y2=cos(2*x);
+y3=y1.*y2;
+subplot(3,3,1);
+bar(x,y1,'grouped');
+title('group');
+subplot(3,3,2);
+bar(x,y2,'grouped');
+title('group');
+subplot(3,3,3);
+bar(x,y3,'grouped');
+title('group');

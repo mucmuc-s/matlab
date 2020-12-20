@@ -1,0 +1,13 @@
+x=0:pi/100:2*pi;
+y1=x.*x;
+y2=cos(2*x);
+y3=y1.*y2;
+subplot(3,3,1);
+fill(x,y1,'r');
+title('fill');
+subplot(3,3,2);
+fill(x,y2,'b');
+title('fill');
+subplot(3,3,3);
+fill(x,y3,'k');
+title('fill');

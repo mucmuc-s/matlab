@@ -1,0 +1,13 @@
+x=0:pi/100:2*pi;
+y1=x.*x;
+y2=cos(2*x);
+y3=y1.*y2;
+subplot(3,3,1);
+stem(x,y1);
+title('stem');
+subplot(3,3,2);
+stem(x,y2);
+title('stem');
+subplot(3,3,3);
+stem(x,y3);
+title('stem');

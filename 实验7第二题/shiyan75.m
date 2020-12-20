@@ -1,0 +1,10 @@
+x=0:pi/100:2*pi;
+y1=x.*x;
+y2=cos(2*x);
+y3=y1.*y2;
+subplot(3,3,1);
+plot(x,y1,'b:');
+subplot(3,3,2);
+plot(x,y2,'r-');
+subplot(3,3,3);
+plot(x,y3,'k--');

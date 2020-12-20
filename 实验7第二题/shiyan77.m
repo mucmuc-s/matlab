@@ -1,0 +1,13 @@
+x=0:pi/100:2*pi;
+y1=x.*x;
+y2=cos(2*x);
+y3=y1.*y2;
+subplot(3,3,1);
+stairs(x,y1);
+title('stairs');
+subplot(3,3,2);
+stairs(x,y2);
+title('stairs');
+subplot(3,3,3);
+stairs(x,y3);
+title('stairs');

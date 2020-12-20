@@ -1,0 +1,10 @@
+t=-3:0.1:3;
+g1=cos(6*pi*t);
+g2=cos(14*pi*t);
+g3=cos(26*pi*t);
+subplot(1,3,1);
+stem(g1);
+subplot(1,3,2);
+stem(g2);
+subplot(1,3,3);
+stem(g3);

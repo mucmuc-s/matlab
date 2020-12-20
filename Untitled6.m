@@ -1,0 +1,16 @@
+x=0:0.1:10;
+a=5;
+b=2;
+c=4;
+y1=exp(x);
+y2=sin(x);
+y3=a*x.^2+b*x+c;
+y4=sqrt(x);
+subplot(2,2,1);
+plot(x,y1)
+subplot(2,2,2);
+plot(x,y2)
+subplot(2,2,3);
+plot(x,y3)
+subplot(2,2,4);
+plot(x,y4)
