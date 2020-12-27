@@ -1,0 +1,12 @@
+RC=0.04;
+t=linspace(-2,2,1024);
+w1=5;
+w2=100;
+H1=1i*w1/(1i*w1+1/RC);
+H2=1i*w2/(1i*w2+1/RC);
+f=cos(5*t)+cos(100*t);
+y=abs(H1)*cos(w1*t+angle(H1))+abs(H2)*cos(w2*t+angle(H2));
+subplot(2,1,1);
+plot(t,f);
+subplot(2,1,2);
+plot(t,y);
